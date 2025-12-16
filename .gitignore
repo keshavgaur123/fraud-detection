@@ -1,0 +1,30 @@
+# Virtual Environment
+myenv/
+.venv/
+.env/
+
+# Python Cache / Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+logs/
+
+# Model / Temporary Artifacts
+*.pkl
+*.joblib
+*.model
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build / Packaging
+build/
+dist/
+*.egg-info/
+
+# Secrets / Config
+data/creditcard.csv
